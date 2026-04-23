@@ -1,0 +1,26 @@
+{
+  "id": "project_A",
+  "title": "한전 33kV 배전망 체결요소 공급 (2024)",
+  "client": "한국전력공사",
+  "year": 2024,
+  "outcome": "수주 성공, 정상 납품",
+  "scale": "대형",
+  "description": "33kV 가공 배전선로용 대형 스테인리스 볼트/너트/아이볼트 체결요소 2년 공급 계약. 염분 환경 해안 지역 포함.",
+  "standards": ["AS 1111", "AS 1112", "AS 1154", "AS 1237", "AS/NZS 1554", "AS/NZS 1968", "ISO 31000", "AS/NZS ISO 9001", "KS B 1002"],
+  "materials": ["SUS316", "SUS316L"],
+  "environmental": {
+    "atmosphere": "Saliferous, corrosive",
+    "ambient_temp_peak_c": 38,
+    "ambient_temp_min_c": -5,
+    "humidity_pct": 88
+  },
+  "electrical": {
+    "voltage_kv": [33, 22.9],
+    "frequency_hz": 50,
+    "phases": 3
+  },
+  "items_summary": "M100~M550 볼트/너트 30종, 아이볼트 5종, 플랫 와셔 4종 (총 39종)",
+  "tests": ["Type Test", "Batch Test", "Routine Test", "Acceptance Test"],
+  "service_life_years": 30,
+  "notes": "염분 환경 대응으로 316L 채택. Type Test 3회 수행."
+}

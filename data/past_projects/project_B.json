@@ -1,0 +1,26 @@
+{
+  "id": "project_B",
+  "title": "현대중공업 해양플랜트 체결요소 (2023)",
+  "client": "현대중공업",
+  "year": 2023,
+  "outcome": "수주 성공, 추가 발주 연계",
+  "scale": "중형",
+  "description": "해양 플랜트 상부구조용 체결요소. 고염분/고습 환경, SUS316L 전량 사용.",
+  "standards": ["AS 1111", "AS 1112", "AS 1154", "AS 2837", "AS/NZS 1554", "ISO 9001", "KS B 1002", "KS B 1326"],
+  "materials": ["SUS316L"],
+  "environmental": {
+    "atmosphere": "Offshore saliferous, permanent spray",
+    "ambient_temp_peak_c": 35,
+    "ambient_temp_min_c": 0,
+    "humidity_pct": 95
+  },
+  "electrical": {
+    "voltage_kv": [],
+    "frequency_hz": null,
+    "phases": null
+  },
+  "items_summary": "M160~M450 고강도 볼트, 해양용 아이볼트 8종",
+  "tests": ["Type Test", "Batch Test", "Salt Spray Test", "Acceptance Test"],
+  "service_life_years": 25,
+  "notes": "ASTM A193 B8M도 대체 재질로 검토. Salt Spray 1000h 통과 필수."
+}

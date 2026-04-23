@@ -1,0 +1,26 @@
+{
+  "id": "project_D",
+  "title": "SR사 철도 전차선로 지지물 (2022)",
+  "client": "한국철도시설공단",
+  "year": 2022,
+  "outcome": "수주 성공, 현재 유지보수 단계",
+  "scale": "중형",
+  "description": "전차선로 지지 금구류 체결요소. 용접 가공 없음, 드롭 포지드 단일 품목 중심.",
+  "standards": ["AS 1111", "AS 1112", "AS 1275", "KS B 1002", "KS B 1326", "ISO 898-1", "ISO 9001"],
+  "materials": ["SUS316"],
+  "environmental": {
+    "atmosphere": "Industrial, suburban",
+    "ambient_temp_peak_c": 40,
+    "ambient_temp_min_c": -15,
+    "humidity_pct": 75
+  },
+  "electrical": {
+    "voltage_kv": [25],
+    "frequency_hz": 60,
+    "phases": 1
+  },
+  "items_summary": "M200~M500 대형 드롭 포지드 볼트, 아이볼트 12종",
+  "tests": ["Type Test", "Batch Test", "Fatigue Test"],
+  "service_life_years": 35,
+  "notes": "용접 제외 요건으로 단일품 드롭 포지드 생산. 진동 피로 Fatigue Test 추가 수행."
+}

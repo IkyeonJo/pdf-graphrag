@@ -1,0 +1,63 @@
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Node / Vite
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# FAISS indexes, caches
+*.faiss
+*.pkl
+.cache/
+data/indexes/
+
+# Neo4j volumes
+neo4j_data/
+neo4j_logs/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploaded PDFs at runtime (keep samples in data/samples/)
+uploads/
+
+# Portfolio planning / context files (not for public repo)
+CLAUDE.md
+plan.md
+prd.md
+.claude/
+
+# Local session dumps / duplicates at repo root
+2026-*-prdmd.txt
+/MR-161-2018-Tender-Specs.pdf

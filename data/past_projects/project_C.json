@@ -1,0 +1,26 @@
+{
+  "id": "project_C",
+  "title": "베트남 EVN 11kV 경량 사양 (2023)",
+  "client": "EVN Vietnam",
+  "year": 2023,
+  "outcome": "재검토 후 포기 (마진 부족)",
+  "scale": "소형",
+  "description": "11kV 배전망 경량 사양 체결요소. 내륙 저부식 환경. 원가 경쟁 과열.",
+  "standards": ["AS 1111", "AS 1112", "AS 1154", "AS 1237", "ISO 9001"],
+  "materials": ["SUS304L", "SUS316"],
+  "environmental": {
+    "atmosphere": "Dusty, tropical",
+    "ambient_temp_peak_c": 42,
+    "ambient_temp_min_c": 18,
+    "humidity_pct": 82
+  },
+  "electrical": {
+    "voltage_kv": [11, 0.4],
+    "frequency_hz": 50,
+    "phases": 3
+  },
+  "items_summary": "M100~M350 표준 볼트, 플랫 와셔 2종",
+  "tests": ["Type Test", "Batch Test"],
+  "service_life_years": 20,
+  "notes": "SUS304L 채택으로 원가 절감 시도. 경쟁사 대비 견적 부족으로 포기."
+}
